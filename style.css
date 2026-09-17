@@ -130,11 +130,16 @@ a.cta-principal {
     list-style-type: none;
     padding-top: 7px;
     margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 
 #servicos li {
    padding-top: 7px;
    margin: 17px;
+   flex-basis: 250px;
+   flex-shrink: 0;
 }
 #servicos li h3{
    color: #CBD5E1;
