@@ -1,0 +1,276 @@
+/* ========================================
+   1. CONFIGURAÇÕES GERAIS
+   ======================================== */
+
+/* ========================================
+   2. CORPO DA PÁGINA
+   ======================================== */
+body {
+   font-family: Arial, sans-serif;
+   margin: 20px;
+   padding: 15px;
+   background-color: #0F172A;
+}
+
+/* ========================================
+   3. CABEÇALHO
+   ======================================== */
+header {
+    color: #F8FAFC;
+    padding: 20px 0;
+    text-align: right;
+    display: inline;
+    flex-direction: row;
+}
+
+/* ========================================
+   4. TÍTULO PRINCIPAL
+   ======================================== */
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+    text-align: center;
+    padding: 20px 0;
+    margin-right: 500px;
+}
+
+h1, h2, h3 {
+    font-family: "Courier New", monospace;
+     color: #F8FAFC;
+}
+
+/* ========================================
+   5. NAVEGAÇÃO
+   ======================================== */
+
+/* ========================================
+   6. LINKS DA NAVEGAÇÃO
+   ======================================== */
+.navegacao-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+}
+
+.navegacao-links li {
+    margin: 0 10px;
+}
+
+.navegacao-links a {
+    color: #F8FAFC;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* ========================================
+   7. CONTEÚDO PRINCIPAL
+   ======================================== */
+
+/* ========================================
+   8. SEÇÃO INICIAL / HERO
+   ======================================== */
+#inicio {
+   padding: 17px;
+   margin: 12px;
+}
+
+.destaque {
+   font-size: 32px;
+   font-weight: bold;
+   text-align: left;
+   color: rgb(81, 116, 117);
+   margin: 19px;
+   letter-spacing: normal;
+}
+
+h2 {
+   font-size: 26px;
+}
+
+p:not(.destaque) {
+    color: #CBD5E1;
+    font-size: 22px;
+}
+
+/* ========================================
+   9. LINKS / CTAs
+   ======================================== */
+.links a {
+    border: 1px solid #334155;
+    background-color: #172554;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 12px;
+    color: #F8FAFC;
+}
+
+.links a,
+a.cta-principal {
+    text-decoration: none;
+}
+
+.links a.cta-principal {
+   color: #F8FAFC;
+   background: #0EA5E9;
+   border: 1px solid #38BDF8;
+}
+
+/* ========================================
+   10. SEÇÃO DE SERVIÇOS
+   ======================================== */
+
+/* ========================================
+   11. LISTA DE SERVIÇOS
+   ======================================== */
+#servicos ul {
+    list-style-type: none;
+    padding-top: 7px;
+    margin: 0;
+}
+
+#servicos li {
+   padding-top: 7px;
+   margin: 17px;
+}
+#servicos li h3{
+   color: #CBD5E1;
+}
+#servicos li p{
+   color: #94A3B8;
+}
+h3 {
+   font-size: 24px;
+}
+
+#frase-auxiliar {
+   color:  #94A3B8;
+}
+
+/* ========================================
+   12. ITENS / CARDS DE SERVIÇOS
+   ======================================== */
+
+/* ========================================
+   13. SEÇÃO "COMO FUNCIONA"
+   ======================================== */
+#como-funciona {
+   padding: 10px;
+   margin: 12px;
+}
+
+#como-funciona ol.lista-etapa {
+   font-size: 24px;
+   padding-top: 12px;
+   margin: 7px;
+  color:  #CBD5E1;
+}
+
+/* ========================================
+   14. LISTA DE ETAPAS
+   ======================================== */
+#como-funciona li {
+   padding: 0;
+   margin: 7px;
+}
+
+/* ========================================
+   15. SEÇÃO DE SOLICITAÇÃO
+   ======================================== */
+
+/* ========================================
+   16. FORMULÁRIO
+   ======================================== */
+#solicitacao{
+   color: #F8FAFC;
+   
+
+}
+#solicitacao h2{
+   max-width: 400px;
+}
+#solicitacao form{
+   margin-left: 350px ;
+   
+  
+}
+
+/* ========================================
+   17. LABELS
+   ======================================== */
+#solicitacao label{
+   color: #F8FAFC;
+   display: block;
+   margin-top: 19px;
+}
+
+/* ========================================
+   18. CAMPOS DE TEXTO
+   ======================================== */
+
+input,textarea,#servicos-interesse{
+width: 400px;
+height: 30px;
+margin: 19px;
+border:3px solid;
+border-radius: 9px;
+}
+#mensagem-ideia{
+   height: 100px;
+}
+#mensagem-ideia::placeholder {
+   color: black;
+   font-size: 16px;}
+#mensagem-prazo{
+   
+   height: 100px;
+}
+
+#mensagem-prazo::placeholder{
+   color: black;
+}
+button[type="submit"]{
+   width: 220px;
+   padding: 19px;
+  
+
+}
+/*  =================================
+ 19. SELECT
+   ======================================== */
+
+
+/* ========================================
+   20. TEXTAREA
+   ======================================== */
+
+/* ========================================
+   21. BOTÃO DE ENVIO
+   ======================================== */
+#solicitacao button{
+   background-color: #172554;
+   display: block;
+   
+   margin: 25px 47px;
+   
+
+   
+}
+/* ========================================
+   22. ESTADOS DOS ELEMENTOS
+   ======================================== */
+
+/* ========================================
+   23. RODAPÉ
+   ======================================== */
+
+/* ========================================
+   24. LINKS DO RODAPÉ
+   ======================================== */
+
+/* ========================================
+   25. RESPONSIVIDADE
+   ======================================== */
