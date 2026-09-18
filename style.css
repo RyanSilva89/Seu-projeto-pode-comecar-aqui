@@ -19,8 +19,10 @@ header {
     color: #F8FAFC;
     padding: 20px 0;
     text-align: right;
-    display: inline;
-    flex-direction: row;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:space-between;
+    
 }
 
 /* ========================================
@@ -31,7 +33,7 @@ h1 {
     margin: 0;
     text-align: center;
     padding: 20px 0;
-    margin-right: 500px;
+    /* margin-right: 500px; */
 }
 
 h1, h2, h3 {
@@ -52,11 +54,12 @@ h1, h2, h3 {
     padding: 0;
     display: flex;
     justify-content: right;
+    gap: 20px;
 }
 
-.navegacao-links li {
-    margin: 0 10px;
-}
+/* .navegacao-links li { 
+     margin: 0 10px;
+ } */
 
 .navegacao-links a {
     color: #F8FAFC;
