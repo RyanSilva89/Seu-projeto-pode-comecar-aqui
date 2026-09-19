@@ -77,8 +77,16 @@ h1, h2, h3 {
    8. SEÇÃO INICIAL / HERO
    ======================================== */
 #inicio {
-   padding: 17px;
-   margin: 12px;
+    padding: 20px; 
+   margin: 30px;
+    padding-bottom: 50px; 
+   scroll-margin-top: 90px; 
+  
+}
+#inicio p{
+   margin: 20px;
+   width: 800px;
+   padding: 15px;
 }
 
 .destaque {
@@ -125,7 +133,10 @@ a.cta-principal {
 /* ========================================
    10. SEÇÃO DE SERVIÇOS
    ======================================== */
+#servicos{
+   padding:40px
 
+}
 /* ========================================
    11. LISTA DE SERVIÇOS
    ======================================== */
